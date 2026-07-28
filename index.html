@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Assets Optimizer Pro - Optimize Roblox Textures &amp; PBR Materials Instantly</title>
-    <meta name="description" content="Batch-optimize textures for Roblox Studio: automatic resizing (256/512/1024px) and PBR SurfaceAppearance packing from Metal/AO/Roughness maps, 100% local processing. Free to download.">
+    <title>Roblox Assets Optimizer Pro - Audit, Optimize &amp; Pack Roblox Textures</title>
+    <meta name="description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%A7%B1</text></svg>">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Roblox Assets Optimizer Pro - Optimize Roblox Textures & PBR Materials Instantly">
-    <meta property="og:description" content="Batch-optimize textures for Roblox Studio: automatic resizing (256/512/1024px) and PBR SurfaceAppearance packing from Metal/AO/Roughness maps, 100% local processing. Free to download.">
+    <meta property="og:title" content="Roblox Assets Optimizer Pro - Audit, Optimize & Pack Roblox Textures">
+    <meta property="og:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
     <meta property="og:url" content="https://ezannstudios.github.io/roblox-optimizer-website/">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Roblox Assets Optimizer Pro - Optimize Roblox Textures & PBR Materials Instantly">
-    <meta name="twitter:description" content="Batch-optimize textures for Roblox Studio: automatic resizing (256/512/1024px) and PBR SurfaceAppearance packing from Metal/AO/Roughness maps, 100% local processing. Free to download.">
+    <meta name="twitter:title" content="Roblox Assets Optimizer Pro - Audit, Optimize & Pack Roblox Textures">
+    <meta name="twitter:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
     <style>
         body {
             background-color: #151515;
@@ -55,6 +55,7 @@
             display: block;
         }
         p { color: #B0B0B0; font-size: 1.1rem; line-height: 1.6; }
+        p strong { color: #E2E2E2; }
         .feature-badge {
             background-color: #212121;
             border: 1px solid #353535;
@@ -65,6 +66,7 @@
             color: #007ACC;
             font-weight: bold;
         }
+        .fine-print { font-size: 0.85rem; color: #777777; margin-top: 30px; }
         .cta-button {
             background-color: #e24634;
             color: white;
@@ -90,14 +92,18 @@
     </div>
     <!-- TODO: point at the real release download link once published -->
     <a href="https://github.com/EZannStudios/roblox-optimizer-website/releases/download/v1.0.2/RobloxOptimizerPro-1.0.2.msi" class="cta-button">Download Free APP</a>
-    <p>Stop fighting Roblox's texture size limits. Automatically resize and compress your textures into lightweight, Studio-ready PNGs directly on your PC &mdash; UGC accessories, standard maps, or the max 1024px Roblox allows.</p>
-    <p>PBR Packer. Combine Metal, AO, and Roughness maps into a single Roblox SurfaceAppearance-ready texture, no manual channel work required &mdash; even works with just one or two maps if that's all you have.</p>
+    <p><strong>Texture Audit.</strong> Your experience gets killed on low-end mobile and Studio won't tell you which textures are to blame. Drop a whole folder &mdash; subfolders included &mdash; and see every image ranked by the memory it's estimated to cost inside Roblox, with the problem flagged on each one: bigger than Roblox's 1024px upload cap, an alpha channel where every pixel is opaque (roughly double the memory for nothing), greyscale maps saved as RGB, and duplicate art hiding under different filenames. Then fix them without leaving the app.</p>
+    <p><strong>Texture Optimizer.</strong> Stop fighting Roblox's texture size limits. Automatically resize and compress your textures into lightweight, Studio-ready PNGs directly on your PC &mdash; UGC accessories, standard maps, or the max 1024px Roblox allows.</p>
+    <p><strong>PBR Packer.</strong> Combine Metal, AO, and Roughness maps into a single Roblox SurfaceAppearance-ready texture, no manual channel work required &mdash; even works with just one or two maps if that's all you have.</p>
 
     <div>
+        <div class="feature-badge">📊 Free Unlimited Texture Audit</div>
         <div class="feature-badge">🔒 100% Local &amp; Secure</div>
         <div class="feature-badge">⚡ Instant Batch Processing</div>
         <div class="feature-badge">🧱 Built for Roblox Studio &amp; UGC Creators</div>
     </div>
+
+    <p class="fine-print">Memory figures are estimates &mdash; Roblox transcodes textures differently per platform, so the audit is built to rank your worst offenders, not to match Studio byte for byte.</p>
 
     <footer>
         © 2026 EzannStudios. Built for the Roblox Creators Community.
