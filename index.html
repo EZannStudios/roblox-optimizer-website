@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roblox Assets Optimizer Pro - Audit, Optimize &amp; Pack Roblox Textures</title>
-    <meta name="description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
+    <meta name="description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, fix the dark halo around transparent PNGs, batch-resize (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%A7%B1</text></svg>">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Roblox Assets Optimizer Pro - Audit, Optimize & Pack Roblox Textures">
-    <meta property="og:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
+    <meta property="og:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, fix the dark halo around transparent PNGs, batch-resize (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local.">
     <meta property="og:url" content="https://ezannstudios.github.io/roblox-optimizer-website/">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Roblox Assets Optimizer Pro - Audit, Optimize & Pack Roblox Textures">
-    <meta name="twitter:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, then batch-resize them (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local processing.">
+    <meta name="twitter:description" content="Find which textures are eating your Roblox memory budget with a free unlimited audit, fix the dark halo around transparent PNGs, batch-resize (256/512/1024px) and pack PBR SurfaceAppearance maps. 100% local.">
     <style>
         body {
             background-color: #151515;
@@ -91,13 +91,15 @@
         <img class="hero-banner" src="https://ezannstudios.github.io/banner_roblox.png" alt="Roblox Assets Optimizer Pro workflow: Metal/AO/Roughness maps in, optimized PNG textures and a packed SurfaceAppearance material out, ready for Roblox Studio">
     </div>
     <!-- TODO: point at the real release download link once published -->
-    <a href="https://github.com/EZannStudios/roblox-optimizer-website/releases/download/v1.0.3/RobloxAssetsOptimizerPro-1.0.3.msi" class="cta-button">Download Free APP</a>
+    <a href="https://github.com/EZannStudios/roblox-optimizer-website/releases/download/v1.0.4/RobloxAssetsOptimizerPro-1.0.4.msi" class="cta-button">Download Free APP</a>
     <p><span style="color: #e4a058;">Texture Audit.</span> Your experience gets killed on low-end mobile and Studio won't tell you which textures are to blame. Drop a whole folder &mdash; subfolders included &mdash; and see every image ranked by the memory it costs inside Roblox. Here's the part most creators get wrong: <span style="color: #e4a058;">Roblox does not downscale your uploads.</span> A 4096&times;4096 texture is stored at 4096&times;4096 and costs <span style="color: #e4a058;">64&times;</span> what a 512&times;512 one costs &mdash; we measured it. One 4K texture eats 85&nbsp;MB of graphics memory on its own. The audit finds them, along with duplicate art hiding under different filenames and files bloating your upload size for no visual gain. Then fixes them without leaving the app.</p>
     <p><span style="color: #e4a058;">Texture Optimizer.</span> Since Roblox won't shrink your textures for you, do it before you upload. Batch-resize and recompress into lightweight, Studio-ready PNGs directly on your PC &mdash; 256px for UGC accessories, 512px for standard maps (Roblox's own guidance for most textures), or 1024px for hero assets.</p>
+    <p><span style="color: #e4a058;">Edge Halo Fix.</span> That dark outline around your cut-out PNGs &mdash; foliage, decals, UI icons &mdash; isn't bad art. Fully transparent pixels <span style="color: #e4a058;">still store a colour</span>, almost always black, and Roblox blends it back in every time it scales the texture down. The audit flags which of your files do it, and one click fills those hidden pixels with the colour of the nearest edge instead. Technical artists have done this by hand for years; almost nobody on Roblox does. It's a visual fix rather than a memory one, and it's free.</p>
     <p><span style="color: #e4a058;">PBR Packer.</span> Combine Metal, AO, and Roughness maps into a single Roblox SurfaceAppearance-ready texture, no manual channel work required &mdash; even works with just one or two maps if that's all you have.</p>
 
     <div>
         <div class="feature-badge">📊 Free Unlimited Texture Audit</div>
+        <div class="feature-badge">✨ Transparent Edge Halo Fix</div>
         <div class="feature-badge">🔒 100% Local &amp; Secure</div>
         <div class="feature-badge">⚡ Instant Batch Processing</div>
         <div class="feature-badge">🧱 Built for Roblox Studio &amp; UGC Creators</div>
